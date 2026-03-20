@@ -98,7 +98,7 @@ nav {
 }
 
 @media screen and (min-width: 1920px) {
-  .main-header {
+  header {
     padding: 38px 160px;
   }
 }
