@@ -61,7 +61,7 @@
 }
 
 
-/* @media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
   .payments .content-container {
     display: flex;
     justify-content: space-between;
@@ -71,8 +71,9 @@
   }
   .payments .content-container .image-gallery {
     width: 790px;
+    margin: 0;
   }
-} */
+}
 
 /* @media screen and (min-width: 1300px) {
   .payments .content-container {
