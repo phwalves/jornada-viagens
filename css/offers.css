@@ -84,7 +84,7 @@
 
 @media screen and (min-width: 1024px) {
   .offers-cards .card {
-    width: 480px;
+    width: 420px;
     height: 308px;
   }
   .offers-cards .card header h3 {
@@ -93,6 +93,12 @@
 
   .offers-cards .card header span {
     font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1330px) {
+  .offers-cards .card {
+    width: 420px;
   }
 }
 
