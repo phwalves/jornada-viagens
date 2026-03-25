@@ -1,7 +1,17 @@
-.hero-img {
+.hero .hero-img,
+.bottom-hero .hero-img {
   height: 400px;
   width: 100%;
+}
+
+.hero-img {
   background-image: url(../img/hero-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bottom-hero .hero-img {
+  background: url(../img/bg-bottom-hero-mobile.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -22,6 +32,11 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .bottom-hero .hero-img {
+    height: 400px;
+    background: url(../img/bg-bottom-hero-tablet.png) no-repeat;
+    background-size: cover;
+  }
   .hero h2 {
     padding: 88px 60px;
     font-size: 32px;
@@ -33,6 +48,11 @@
     height: 620px;
     background-image: url(../img/hero-desktop.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bottom-hero .hero-img {
+    height: 600px;
+    background: url(../img/bg-bottom-hero-desktop.png) no-repeat;
     background-size: cover;
   }
   .hero h2 {
