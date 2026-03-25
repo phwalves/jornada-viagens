@@ -4,15 +4,13 @@
   width: 100%;
 }
 
-.hero-img {
-  background-image: url(../img/hero-mobile.jpg);
-  background-repeat: no-repeat;
+.hero .hero-img {
+  background: url(../img/hero-mobile.jpg) no-repeat;
   background-size: cover;
 }
 
 .bottom-hero .hero-img {
-  background: url(../img/bg-bottom-hero-mobile.png);
-  background-repeat: no-repeat;
+  background: url(../img/bg-bottom-hero-mobile.png) no-repeat;
   background-size: cover;
 }
 
@@ -21,15 +19,14 @@
   margin: 0px;
   font-weight: var(--text-weight);
   font-size: 20px;
-  text-align: center;
   line-height: 1.5;
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
-  .hero-img {
+  .hero .hero-img {
     height: 620px;
-    background-image: url(../img/hero-tablet.jpg);
-    background-repeat: no-repeat;
+    background: url(../img/hero-tablet.jpg) no-repeat;
     background-size: cover;
   }
   .bottom-hero .hero-img {
